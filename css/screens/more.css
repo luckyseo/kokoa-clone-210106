@@ -1,0 +1,28 @@
+.extra-app{
+    margin-top:40px;
+    border-bottom: var(--section-border);
+ 
+}
+.extra-app__row{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom:10px;
+    margin-bottom:30px;
+}
+.extra-app__row:nth-child(2){
+    width:50%;
+}
+.extra-app__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.extra-app span{
+    margin-top: 10px;
+}
+.Suggestion{
+    padding:20px 0px;
+    font-size:large;
+    font-weight: 500;
+}
