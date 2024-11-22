@@ -12,3 +12,15 @@
 .screen-header__icons span{
     margin-left:25px ;
 }
+.screen__header__icons span:nth-child(2){
+    position:relative;
+}
+.alert-setting{ /*need to fix*/
+    width:5px;
+    height:5px;
+    background-color:tomato;
+    border-radius:2.5px;
+    position:absolute;
+    right:4px;
+    top:50px;
+}
