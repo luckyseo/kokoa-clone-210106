@@ -40,3 +40,29 @@
     position:absolute;
     right: -3px;
 }
+
+@keyframes notificationAnimation{
+    0%{
+        transform: none;
+    }50%{
+        transform: translateY(-5px);
+    }100%{
+        transform:none;
+    }
+}
+
+.nav__notification{
+    animation: notificationAnimation 2s ease-in-out infinite;
+}
+
+@keyframes appearBtnAnimation{
+    from{
+        transform: translateY(50px);
+    }to{
+        tranform:none;
+    }
+}
+
+.nav__btn{
+    animation:appearBtnAnimation 1s ease-in-out;
+}
