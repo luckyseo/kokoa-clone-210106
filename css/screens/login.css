@@ -51,3 +51,21 @@
     color:inherit;
     font-size: 12px;
 }
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.loading-circle{
+    width: 50px; /* Diameter of the circle */
+    height: 50px;
+    border: 5px solid transparent; /* Outer border */
+    border-top: 5px solid white; /* Animated part */
+    border-radius:5px;
+    border-radius: 50%; /* Make it circular */
+    animation: spin 1s linear infinite; /* Infinite rotation */
+}
